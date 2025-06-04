@@ -9,6 +9,6 @@ st.write("Ứng dụng này cho phép bạn tính giai thừa của một số t
 # Tạo một ô nhập số
 number = st.number_input("Nhập một số tự nhiên: ", min_value=0, max_value=1000,value=0, step=1)
 # Tạo button calculate
-if st.button("Calculate"):
+if st.button("Sếp bấm vào đây để tính nè"):
     result = math.factorial(number)
     st.success(f"Giai thừa của {number} là: {result}")
